@@ -1,0 +1,12 @@
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.deps.json
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.dll
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.pdb
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.csprojAssemblyReference.cache
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.AssemblyInfoInputs.cache
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.AssemblyInfo.cs
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.dll
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.pdb
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.runtimeconfig.json
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.runtimeconfig.dev.json
+C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.DAL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.genruntimeconfig.cache

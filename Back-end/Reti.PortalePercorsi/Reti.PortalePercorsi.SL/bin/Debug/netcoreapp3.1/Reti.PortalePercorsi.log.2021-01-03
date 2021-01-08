@@ -1,0 +1,451 @@
+2021-01-03 11:14:06,978  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:14:14,517  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:14:15,340  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:14:17,287  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:14:19,455  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:25:49,221  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:25:49,621  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:27:10,795  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:27:11,149  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:32:12,746  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:32:54,236  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:55:52,577  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-03 11:55:52,707  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-03 11:55:52,709  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-03 11:56:03,204  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:07,109  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 11:56:07,163  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:07,197  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:56:07,200  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:56:07,223  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:07,230  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:24,302  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:26,114  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 11:56:26,150  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:26,150  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:56:26,154  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:56:26,158  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:56:26,164  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:10,888  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:12,283  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 11:58:12,314  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:12,349  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:58:12,356  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:58:12,367  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:12,377  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:44,123  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:45,576  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 11:58:45,611  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:45,635  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 11:58:45,669  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 11:58:45,677  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:45,686  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 11:58:53,011  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Edit
+ 2021-01-03 11:59:48,985  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:00,190  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 12:00:00,213  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:00:00,250  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:00,253  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:00:00,260  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:00,271  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:15,993  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:21,024  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:21,797  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 12:00:21,814  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:21,835  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:00:21,839  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:00:21,848  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:21,889  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:40,849  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Edit
+ 2021-01-03 12:00:42,223  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:46,050  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 12:00:46,063  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:00:46,066  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:46,072  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:00:46,098  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:00:46,107  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:30:43,220  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-03 12:30:43,286  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-03 12:30:43,288  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-03 12:30:52,637  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 12:30:54,214  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:30:54,242  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:30:54,245  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:30:54,280  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:30:54,296  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:31:03,202  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:31:03,204  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:31:03,208  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:31:03,218  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:31:03,225  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:31:07,590  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:07,628  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:07,644  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:07,659  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:07,675  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:07,690  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 12:31:59,021  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 12:32:19,268  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:32:29,062  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Added new Resource
+ 2021-01-03 12:32:33,259  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:32:38,475  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:37:47,060  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:39:40,122  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:41:29,552  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:41:45,552  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:45:53,421  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:46:09,109  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Added new Resource
+ 2021-01-03 12:46:09,121  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:46:09,157  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:14,083  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:16,081  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:17,078  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:55:17,082  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:17,091  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 12:55:17,132  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:17,139  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 12:55:32,328  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 12:55:32,802  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:01:44,561  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:01:45,149  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:01:45,180  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:01:45,188  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:01:45,208  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:01:45,215  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:01:48,654  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:02:24,615  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 13:03:48,216  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:03:49,904  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:03:49,912  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:03:49,937  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:03:49,954  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:03:49,963  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:03:52,484  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:04:07,137  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 13:04:41,167  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:05:45,498  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 13:05:49,315  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:49,337  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 13:05:49,355  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:05:49,358  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:49,360  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:05:49,367  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:49,381  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:53,255  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 13:05:53,268  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:53,295  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:05:53,293  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:05:53,302  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:53,340  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:05:56,531  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Edit
+ 2021-01-03 13:06:00,215  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:00,237  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 13:06:00,249  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:06:00,283  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:00,285  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:06:00,290  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:00,295  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:07,937  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 13:06:07,947  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:06:07,950  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:07,952  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:06:07,957  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:07,963  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:12,604  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 13:06:12,606  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:12,609  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 13:06:12,617  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:12,622  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 13:06:17,557  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:17,575  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:17,588  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:17,602  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:17,617  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:17,629  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 13:06:59,977  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 13:07:12,769  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/Add
+ 2021-01-03 14:50:50,842  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-03 14:50:50,875  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-03 14:50:50,875  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-03 14:50:51,018  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 14:51:07,776  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 14:51:09,551  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:04:35,734  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:04:38,000  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:04:55,332  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:05:51,158  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:05:52,704  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:05:55,417  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:10:45,804  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:12:06,952  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:12:22,501  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:12:23,111  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:12:23,113  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:12:23,116  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:12:23,139  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:12:23,152  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:23,270  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:25,959  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:28,869  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:29,645  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:35,759  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lesssons/Remove
+ 2021-01-03 15:18:35,855  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:38,984  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:39,300  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:39,748  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:18:40,675  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:18:48,311  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:18:49,811  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:18:50,694  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:18:51,002  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:18:51,372  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:18:56,753  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:25:00,558  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:26:56,263  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:27:28,165  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:27:30,242  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:30:13,903  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:30:15,328  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:30:29,756  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Add
+ 2021-01-03 15:30:29,845  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:30:29,847  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:30:35,102  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:30:38,600  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/CanDelete
+ 2021-01-03 15:30:42,576  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:30:47,017  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:39:48,055  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-03 15:39:48,133  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-03 15:39:48,136  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-03 15:39:51,987  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:39:53,062  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:39:54,328  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:39:55,355  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:39:58,316  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:39:58,345  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:40:17,409  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-03 15:40:17,485  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-03 15:40:17,487  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-03 15:41:45,281  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:41:49,070  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:42:07,852  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:42:12,036  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 15:42:12,060  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:42:12,064  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:42:12,069  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:42:12,073  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:42:12,085  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:42:22,052  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:43:47,952  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 15:43:47,978  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:43:48,021  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:43:48,024  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:43:48,037  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:43:48,043  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:43:53,434  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:43:58,126  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:43:58,147  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:44:27,032  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:44:33,465  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:44:40,878  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Add
+ 2021-01-03 15:44:40,993  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:44:41,021  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:44:48,159  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-03 15:44:55,310  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/CanDelete
+ 2021-01-03 15:44:55,339  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:48:27,488  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:48:31,730  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:48:36,404  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:48:37,683  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:50:07,682  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:50:08,760  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:51:34,744  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:51:35,442  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:51:40,805  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:51:40,828  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:52:23,467  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:52:23,894  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:52:25,988  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:52:26,007  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:53:48,529  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:53:50,483  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:53:53,164  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:53:53,193  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:49,770  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:50,343  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:53,414  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:57,036  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:58,089  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:54:58,092  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:58,123  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:54:58,132  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:54:58,141  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:00,453  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 15:55:00,466  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:55:00,469  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:00,503  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:55:00,508  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:00,513  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:05,003  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:55:05,005  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:05,006  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:55:05,012  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:05,018  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:11,201  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:12,007  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:55:12,449  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:15,242  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 15:55:15,258  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:55:17,203  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:55:20,051  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:57:48,538  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:57:49,416  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:57:52,638  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:58:18,193  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:58:21,912  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:58:48,095  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 15:59:29,905  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:59:51,904  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:59:54,572  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:59:55,292  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:59:55,329  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:59:55,359  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 15:59:55,388  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:59:55,419  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 15:59:58,843  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 15:59:59,311  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:00:01,142  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:00:03,601  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:00:03,996  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:00:04,860  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 16:00:07,554  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 16:00:09,349  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 16:07:46,082  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:07:46,466  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:07:48,155  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:07:48,170  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:07:48,204  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:07:48,236  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:07:48,293  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:07:48,308  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:12:58,808  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:13:00,288  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:13:00,311  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:13:00,314  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:13:00,338  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:13:00,352  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:13:00,358  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:40,945  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:41,462  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:15:41,465  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:15:41,498  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:41,504  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:41,511  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:43,750  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:15:43,798  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:15:43,800  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:43,829  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:15:43,835  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:15:43,843  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:16:25,276  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:16:26,567  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:16:26,881  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:16:28,241  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:16:45,452  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:17:20,651  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:17:22,218  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:17:22,232  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:17:22,269  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:17:22,298  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:17:22,310  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:17:22,317  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:16,260  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:18:16,528  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:16,881  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:18,111  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:18:21,431  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:18:21,433  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:21,437  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:18:21,459  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:21,465  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:46,678  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:47,983  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-03 16:18:48,000  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:18:48,046  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:48,050  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:18:48,069  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:18:48,129  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:19:52,408  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-03 16:19:53,563  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-03 16:19:58,810  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:20:00,089  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 16:20:00,105  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:20:13,095  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:22:19,637  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:22:20,484  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:24:06,548  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-03 16:24:06,999  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-03 16:24:17,650  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/Add
+ 2021-01-03 16:24:17,702 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Date), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Date)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Courses] ([Description], [EndDate], [Id_Referent], [ReferenceYear], [StartDate])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Courses]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+ 2021-01-03 16:24:17,726 ERROR Microsoft.EntityFrameworkCore.Update.LogMessage [0] - MESSAGE: An exception occurred in the database while saving changes for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Courses_Resources". The conflict occurred in database "PortalePercorsi", table "dbo.Resources", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:fb4639e2-978a-4989-879c-0fe9d9f7d49e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Courses_Resources". The conflict occurred in database "PortalePercorsi", table "dbo.Resources", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:fb4639e2-978a-4989-879c-0fe9d9f7d49e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2021-01-03 16:24:17,877 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Courses/Add
+ 2021-01-03 16:30:33,003  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-03 16:30:33,029  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 

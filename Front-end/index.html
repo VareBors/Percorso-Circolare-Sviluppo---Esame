@@ -1,0 +1,365 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap File -->
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+
+        <!-- I miei File -->
+        <link href="css/index.css" rel="stylesheet">
+
+        <!-- Font Awesome File -->
+        <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet">
+        <link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+        <link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+
+        <title>Portale Percorsi</title>
+    </head>
+    <body>
+        <div class="sidenav" id="sidenav"> 
+            <a href="#" onclick="ShowSection(0);"><i class="fas fa-fw fa-home"></i>Home</a>
+            <a href="#" onclick="ShowSection(1);"><i class="fas fa-fw fa-user"></i>Risorse</a>
+            <a href="#" onclick="ShowSection(2);"><i class="fas fa-fw fa-book"></i>Lezioni</a>
+            <a href="#" onclick="ShowSection(3);"><i class="fas fa-fw fa-map-signs"></i>Percorsi</a>
+            <a href="#" onclick="ShowSection(4);"><i class="fas fa-fw fa-building"></i>Sale</a>
+        </div>
+        <div id="HomeDiv" class="main myContainer">
+            <div class="text-center">
+                <p>Portale Percorsi</p>
+                <p>Il nuovo portale per organizzare i percorsi formativi di Reti</p>
+            </div>
+        </div>
+        <!--#region Sezione Risorse-->
+        <div id="ResourcesDiv" class="main" >
+            <div id="TitleDiv" class="text-center">  
+                <h1>Elenco Risorse</h1>
+            </div>
+            <div id="commandDiv" class="d-flex">
+                <div class="mr-auto pb-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resourceModal" id="addResource"><i class="fas fa-fw fa-plus"></i>Aggiungi Risorsa</button></div>
+                <div class="pb-2">
+                    <input class="form-control" type="text" placeholder="Cerca.." aria-label="Cerca.." name="tableSearch">
+                </div>
+            </div>
+            <div id="ResourcesTableDiv">
+                <table class="table table-hover table-dark text-center">
+                    <thead class="bg-secondary">
+                        <tr>
+                            <th>Matricola</th>
+                            <th>Cognome</th>
+                            <th>Nome</th>
+                            <!-- <th>Username</th>
+                            <th>Email</th>-->
+                            <th>Action</th> 
+                        </tr>
+                    </thead>
+                    <tbody id="ResourcesTable" class="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- #endregion-->
+        
+        <!--#region Sezione Lezioni-->
+        <div id="LessonsDiv" class="main" >
+            <div id="TitleDiv" class="text-center">  
+                <h1>Elenco Lezioni</h1>
+            </div>
+            <div id="commandDiv" class="d-flex">
+                <div class="mr-auto pb-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lessonModal" id="addLesson"><i class="fas fa-fw fa-plus"></i>Aggiungi Lezione</button></div>
+                <div class="pb-2">
+                    <input class="form-control" type="text" placeholder="Cerca.." aria-label="Cerca.." name="tableSearch">
+                </div>
+            </div>
+            <div id="LessonsTableDiv">
+                <table class="table table-hover table-dark text-center">
+                    <thead class="bg-secondary">
+                        <th>Numero Lezione</th>
+                        <th>Percorso</th>
+                        <th>Docente</th>
+                        <th>Aula</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody id="LessonsTable" class="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--#endregion-->
+        
+        <!--#region Sezione Percorsi-->
+        <div id="CoursesDiv" class="main">
+            <div id="TitleDiv" class="text-center">  
+                <h1>Elenco Percorsi</h1>
+            </div>
+            <div id="commandDiv" class="d-flex">
+                <div class="mr-auto pb-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal" id="addCourse"><i class="fas fa-fw fa-plus"></i>Aggiungi Percorso</button></div>
+                <div class="pb-2">
+                    <input class="form-control" type="text" placeholder="Cerca.." aria-label="Cerca.." name="tableSearch">
+                </div>
+            </div>
+            <div id="CourseTableDiv">
+                <table class="table table-hover table-dark text-center">
+                    <thead class="bg-secondary">
+                        <th>Descrizione</th>
+                        <th>Referente</th>
+                        <th>Anno</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody id="CoursesTable" class="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--#endregion-->
+        
+        <!--#region Sezione Sale-->
+        <div id="RoomsDiv" class="main" >
+            <div id="TitleDiv" class="text-center">  
+                <h1>Elenco Sale</h1>
+            </div>
+            <div id="commandDiv" class="d-flex">
+                <div class="mr-auto pb-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#roomModal" id="addRoom"><i class="fas fa-fw fa-plus" ></i>Aggiungi Sala</button></div>
+                <div class="pb-2">
+                    <input class="form-control" type="text" placeholder="Cerca.." aria-label="Cerca.." name="tableSearch">
+                </div>
+            </div>
+            <div id="RoomsTableDiv">
+                <table class="table table-hover table-dark text-center">
+                    <thead class="bg-secondary">
+                        <th>Numero Sala</th>
+                        <th>Nome</th>
+                        <th>Prenotabile</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody id="RoomsTable" class="tableBody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--#endregion-->
+        
+        <!-- #region Finestra Modale Per le risorse -->
+        <div class="modal fade" id="resourceModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="resourceModalTitle">Risorsa</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="resourceForm">
+                            <div class="form-group" id="resourceIdField">
+                                <label for="ResourceId">Matricola</label>
+                                <input type="text" class="form-control" id="ResourceId">
+                            </div>
+                            <div class="form-group">
+                                <label for="ResourceName">Nome</label>
+                                <input type="text" class="form-control" id="ResourceName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ResourceLastName">Cognome</label>
+                                <input type="text" class="form-control" id="ResourceLastName" required>
+                            </div>
+                            <div class="form-group" id="resourceEmailField">
+                                <label for="ResourceEmail">Email</label>
+                                <input type="text" class="form-control" id="ResourceEmail">
+                            </div>
+                            <div class="form-group" id="resourceUsernameField">
+                                <label for="ResourceUsername">Username</label>
+                                <input type="text" class="form-control" id="ResourceUsername">
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="closeResource" type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                        <button id="saveResource" type="button" class="btn btn-primary" >Salva</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion-->
+        
+        <!-- #region Finestra Modale Per le lezioni -->
+        <div class="modal fade" id="lessonModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lessonModalTitle">Inserimento Nuova Lezione</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="lessonForm">
+                            <div class="form-group" id="lessonNumberField">
+                                <label for="lessonNumber">Numero Lezione</label>
+                                <input type="number" class="form-control col-2" id="lessonNumber" min="0" required>
+                            </div>
+                            <div class="form-group" id="lessonCourseField">
+                                <label for="lessonCourses">Percorso</label>
+                                <select class="form-control" id="lessonCourses" required></select>
+                            </div>
+                            <div class="form-group" id="lessonTeacherField">
+                                <label for="lessonTeachers">Docente</label>
+                                <select class="form-control" id="lessonTeachers" required></select>
+                            </div>
+                            <div class="form-group" id="lessonTeacherField">
+                                <label for="lessonRooms">Sala</label>
+                                <select class="form-control" id="lessonRooms" required ></select>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Elenco Risorse</label>
+                                    <select class="form-control" id="globalResources"  size="4"></select>
+                                    <a href="#" id="lessonAddStudent">Aggiungi studente selezionato</a>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Studenti Partecipanti</label>
+                                    <select class="form-control" id="lessonStudents" size="4"></select>
+                                    <a href="#" id="lessonRemoveStudent">Rimuovi studente selezionato</a>
+                                </div>
+                            </div>
+                            <div class="form-group" id="lessonStartField">
+                                <label for="lessonStart">Date Inizio Lezione</label>
+                                <input class="form-control" type="datetime-local" id="lessonStart" required>
+                            </div>
+                            <div class="form-group" id="lessonEndField">
+                                <label for="lessonEnd">Fine Lezione</label>
+                                <input class="form-control" type="time" id="lessonEnd" required>
+                            </div>
+                            <div class="form-group" id="lessonCreatorField">
+                                <label for="lessonRooms">Creatore Lezione</label>
+                                <select class="form-control" id="lessonCreator" required ></select>
+                            </div>
+                            <input type="hidden" id="lessonId" name="lessonId" value="">
+                        </form>
+                    </div>    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                        <button type="submit" class="btn btn-primary" id="saveLesson">Salva</button>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+        
+        <!-- #region Finestra Modale Per le percorsi -->
+        <div class="modal fade" id="courseModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="courseModalTitle">Inserimento Nuovo Perocorso</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="courseForm">
+                            <div class="form-group" id="courseDescriptionField">
+                                <label for="courseDescription">Descrizione</label>
+                                <input type="text" class="form-control" id="courseDescription" required>
+                            </div>
+                            <div class="form-group" id="courseReferentField">
+                                <label for="coruseReferent">Referente</label>
+                                <select class="form-control" id="courseReferent" required></select>
+                            </div>
+                            <div class="form-group" id="courseYearField">
+                                <label for="courseYear">Anno</label>
+                                <input type="number" class="form-control col-2" id="courseYear" min="0" required>
+                            </div>
+                            <div class="form-group" id="courseStartDateField">
+                                <label for="courseStart">Data Inizio</label>
+                                <input class="form-control" type="date" id="courseStart" required>
+                            </div>
+                            <div class="form-group" id="courseEndDateField">
+                                <label for="courseEnd">Data Fine</label>
+                                <input class="form-control" type="date" id="courseEnd" required>
+                            </div>
+                            <input type="hidden" id="courseId" name="courseId" value="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                        <button type="submit" class="btn btn-primary" id="saveCourse">Salva</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+        
+        <!-- #region Finestra Modale Per le sale -->
+        <div class="modal fade" id="roomModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="roomModalTitle">Inserisci Sala</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="roomForm">
+                            <div class="form-group" id="roomNumberField">
+                                <label for="roomNumber">Numero Sala</label>
+                                <input type="number" class="form-control col-2" id="roomNumber" min="0" required>
+                            </div>
+                            <div class="form-group" id="roomPlaceField">
+                                <label for="roomPlace">Posti</label>
+                                <input type="number" class="form-control col-2" id="roomPlace" min="0" required>
+                            </div>
+                            <div class="form-group" id="roomNameField">
+                                <label for="roomName">Nome</label>
+                                <input type="text" class="form-control" id="roomName" required>
+                            </div>
+                            <div class="form-group" id="roomNameField">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="roomBookable">
+                                    <label class="form-check-label" for="roomBookable">Prenotabile</label>
+                                </div>
+                            </div>
+                            <input type="hidden" id="roomId" name="roomId" value="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-primary" id="saveRoom">Salva</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+
+        <!-- #region Finestra Modale Per la cancellazione ed i messaggi d'errore-->
+        <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deleteModalTitle">Conferma Eliminazione</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="removeDialogText">Eliminare l'elemento selezionato?</p>
+                        <input type="hidden" id="removeElementId" name="removeElementID" value="">
+                        <input type="hidden" id="removeElementType" name="elementType" value="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closeRemoveModal">No</button>
+                        <button type="button" class="btn btn-primary" id="removeElement">Si</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+        
+        <!-- Javascript File -->
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="Scripts/index.js"></script>
+    </body>
+</html>

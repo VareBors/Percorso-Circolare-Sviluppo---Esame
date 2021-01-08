@@ -1,0 +1,609 @@
+2021-01-02 11:07:05,685  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:07:05,842  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:07:05,844  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:07:11,668  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:07:13,470  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:07:14,292  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:09:42,634  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:09:52,732 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP (1) dbo.GetResourceNumber() as Id,'' as Name,'' as LastName,'' as Username,'' as Email FROM dbo.Resources
+ 2021-01-02 11:09:52,756 ERROR Microsoft.EntityFrameworkCore.Query.LogMessage [0] - MESSAGE: An exception occurred while iterating over the results of a query for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3ab70e24-e878-4a4f-b762-967b1884452b
+Error Number:4121,State:1,Class:16
+ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3ab70e24-e878-4a4f-b762-967b1884452b
+Error Number:4121,State:1,Class:16
+2021-01-02 11:09:52,976 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:12:02,525  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:12:33,002 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP (1) dbo.GetResourceNumber() as Id,'' as Name,'' as LastName,'' as Username,'' as Email FROM dbo.Resources
+ 2021-01-02 11:12:33,011 ERROR Microsoft.EntityFrameworkCore.Query.LogMessage [0] - MESSAGE: An exception occurred while iterating over the results of a query for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+2021-01-02 11:12:33,075 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:12:58,030 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP (1) dbo.GetResourceNumber() as Id,'' as Name,'' as LastName,'' as Username,'' as Email FROM dbo.Resources
+ 2021-01-02 11:12:58,039 ERROR Microsoft.EntityFrameworkCore.Query.LogMessage [0] - MESSAGE: An exception occurred while iterating over the results of a query for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+2021-01-02 11:12:58,103 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:13:23,605 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP (1) dbo.GetResourceNumber() as Id,'' as Name,'' as LastName,'' as Username,'' as Email FROM dbo.Resources
+ 2021-01-02 11:13:23,612 ERROR Microsoft.EntityFrameworkCore.Query.LogMessage [0] - MESSAGE: An exception occurred while iterating over the results of a query for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot find either column "dbo" or the user-defined function or aggregate "dbo.GetResourceNumber", or the name is ambiguous.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:617fd6cd-bfad-459b-a79a-72052a7b25f3
+Error Number:4121,State:1,Class:16
+2021-01-02 11:24:38,957 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:25:04,636  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:25:04,782  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:25:04,785  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:28:20,739 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:29:34,745  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:29:34,822  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:29:34,824  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:32:49,795  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:32:49,865  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:32:49,873  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:35:14,025 ERROR Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Error during Resource/Add
+ 2021-01-02 11:38:00,299  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:38:00,377  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:38:00,380  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:41:08,372  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:41:08,448  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:41:08,450  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:41:42,208  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:41:42,287  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:41:42,289  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:45:06,045  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 11:45:06,158  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 11:45:06,161  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 11:45:46,909  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Added new Resource
+ 2021-01-02 11:45:46,957  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:46,996  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:55,371  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:56,326  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:59,791  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 11:45:59,822  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:59,826  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:45:59,830  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:45:59,833  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:45:59,842  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:15,053  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:18,435  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:20,165  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:21,167  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:21,169  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:46:21,203  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:46:21,210  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:46:21,219  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:47:04,415  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:47:06,002  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:47:08,746  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:47:09,968  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:47:09,993  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:47:09,995  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:47:10,010  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:47:10,016  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:48:38,696  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:48:48,450  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:48:49,017  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:48:49,812  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:48:54,557  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:48:55,878  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:53:45,976  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:53:46,332  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:53:49,690  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:53:49,693  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:53:49,703  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:53:49,721  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:53:49,730  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:54:14,099  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:54:17,905  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:54:18,459  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:54:18,507  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:54:18,547  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:54:18,570  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:54:18,586  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:19,697  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:20,417  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:56:20,449  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:20,504  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:56:20,530  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:20,549  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:38,698  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:40,307  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 11:56:40,321  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:40,356  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:56:40,359  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:56:40,363  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:40,371  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:46,064  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 11:56:46,077  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:56:46,099  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:56:46,130  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:46,138  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:56:46,165  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:02,214  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:03,323  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:59:03,327  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:03,351  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:59:03,366  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:03,375  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:06,033  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 11:59:06,050  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:06,083  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:59:06,113  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:59:06,120  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:06,129  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:08,712  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 11:59:08,728  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:08,758  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 11:59:08,790  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 11:59:08,795  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 11:59:08,800  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:02:56,864  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:02:56,873  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:02:56,908  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 12:02:56,914  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:02:56,919  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:04:58,266  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 12:04:58,286  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:04:58,318  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:04:58,347  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 12:04:58,358  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:04:58,365  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:09:39,427  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 12:09:39,499  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 12:09:39,501  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 12:11:40,409  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:11:41,378  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:11:42,495  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 12:13:44,533  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:45,121  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:13:45,147  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 12:13:45,154  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:45,189  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:45,198  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:52,042  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 12:13:52,070  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:13:52,073  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:52,105  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 12:13:52,118  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:13:52,124  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 12:16:18,007  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:32:11,803  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:34:01,547  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 12:34:04,324  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:06:45,960  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:06:46,637  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:07:32,691  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:07:33,332  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:09:53,903  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:09:54,454  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:15:35,285  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:15:36,452  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:15:36,483  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:15:52,216  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:16:18,519  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:16:28,816  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:17:16,245  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:17:18,813  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:18:00,975  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:18:01,922  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:18:03,589  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:38:18,404  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:38:25,230  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:41:42,344  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:41:43,560  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:42:13,818  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:43:46,628  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:43:46,656  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:44:38,111  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:44:38,133  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:47:55,587  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:47:55,626  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:20,310  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:54:22,014  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:54:22,030  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:34,437  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:35,537  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 13:54:35,553  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:54:35,557  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:35,559  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 13:54:35,567  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:35,573  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:54:40,292  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:54:41,707  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:54:41,727  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:55:42,597  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:55:47,604  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:56:39,184  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:56:40,469  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:56:40,486  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:56:59,350  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:57:05,837  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:57:41,324  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 13:57:42,344  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 13:57:42,361  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:58:20,615  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 13:58:45,826  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:00:26,446  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:00:41,827  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:01:27,220  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 14:01:27,296  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 14:01:27,298  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 14:01:29,549  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:01:30,743  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:01:32,196  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:01:34,499  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 14:01:34,539  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:04:44,344  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:05:38,268  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:05:38,642  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:05:40,453  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:05:41,256  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 14:05:41,290  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:21:37,676  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 14:21:37,755  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 14:21:37,757  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 14:23:01,878  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:23:02,136  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:29:13,006  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 14:29:13,078  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 14:29:13,080  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 14:33:53,576  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 14:33:53,662  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 14:33:53,665  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 14:35:00,155  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:01,637  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:35:02,126  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:49,960  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:50,442  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:35:50,443  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:50,447  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 14:35:50,456  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:50,479  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:35:56,431  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:35:59,718  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:38:38,649  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:38:39,833  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:38:41,043  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:38:41,525  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 14:38:42,760  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 14:38:43,228  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 14:46:16,086  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 14:46:16,165  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 14:46:16,167  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 14:46:22,277  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:24:37,701  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 15:24:37,775  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 15:24:37,777  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 15:24:43,100  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:11,195  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:12,067  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:12,521  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:13,084  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:13,481  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:13,787  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:14,060  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:16,116  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 15:32:16,142  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:16,146  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 15:32:16,170  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 15:32:16,176  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:32:16,182  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:33:04,786  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:38:03,841  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 15:38:03,918  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 15:38:03,920  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 15:39:10,482  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:40:08,127  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:40:39,062  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:40:53,396  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lesssons/Remove
+ 2021-01-02 15:41:00,889 ERROR Microsoft.EntityFrameworkCore.Database.Command.LogMessage [0] - MESSAGE: Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Lessons]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2021-01-02 15:41:00,915 ERROR Microsoft.EntityFrameworkCore.Update.LogMessage [0] - MESSAGE: An exception occurred in the database while saving changes for context type 'Reti.PortalePercorsi.DAL.Entity.PortalePercorsiContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_LessonsResources_Lessons". The conflict occurred in database "PortalePercorsi", table "dbo.LessonsResources", column 'Id_Lesson'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:391f8e0c-732d-44f5-a17f-fd3f1f3127be
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_LessonsResources_Lessons". The conflict occurred in database "PortalePercorsi", table "dbo.LessonsResources", column 'Id_Lesson'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:391f8e0c-732d-44f5-a17f-fd3f1f3127be
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2021-01-02 15:42:37,641  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 15:42:37,720  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 15:42:37,722  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 15:42:45,857  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lesssons/Remove
+ 2021-01-02 15:43:00,477  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:45:12,396  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:45:14,844  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 15:45:54,008  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetById
+ 2021-01-02 15:45:54,061  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 15:45:54,097  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 15:45:54,099  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:45:54,114  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:45:54,121  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:46:08,325  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lesssons/Remove
+ 2021-01-02 15:46:08,342  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 15:47:40,422  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 15:48:05,756  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 15:48:06,283  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 15:59:57,249  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetById
+ 2021-01-02 16:09:25,571  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 16:09:25,642  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 16:09:25,644  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 16:09:26,762  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:09:27,341  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:09:28,427  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:10:35,023  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:11:03,068  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:11:31,298  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 16:11:31,372  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 16:11:31,374  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 16:11:36,697  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:11:37,163  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:11:38,060  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:11:38,926  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:12:07,741  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:13:46,833  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:13:50,871  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:13:54,839  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:14:20,979  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:14:22,230  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:14:24,838  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:14:26,522  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:14:29,978  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:16:05,378  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:16:06,285  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:16:32,991  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:16:33,840  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:16:36,469  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:16:38,166  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:17:12,039  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:17:13,300  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:17:15,579  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:17:18,169  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/CanDelete
+ 2021-01-02 16:17:18,187  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:17:56,517  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/Remove
+ 2021-01-02 16:17:59,464  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/CanDelete
+ 2021-01-02 16:18:18,193  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:23:39,535  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:32:49,743  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-01-02 16:32:49,820  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-01-02 16:32:49,823  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2021-01-02 16:32:50,070  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:32:51,250  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:32:51,872  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:32:54,228  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 16:32:54,258  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:32:58,169  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 16:32:58,184  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:41,087  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:41,493  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:33:42,430  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetById
+ 2021-01-02 16:33:42,451  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:48,174  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:49,060  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:49,063  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:33:49,072  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:33:49,076  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:49,083  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:51,934  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Courses/GetAll
+ 2021-01-02 16:33:52,823  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2021-01-02 16:33:54,680  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:38:54,767  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:40:10,933  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:42:04,263  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:43:30,943  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:46:02,441  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:46:33,175  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:47:52,259  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:48:20,908  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:48:57,153  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:49:12,380  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:52:33,802  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:53:19,567  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 2021-01-02 16:55:03,368  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Rooms/GetAll
+ 

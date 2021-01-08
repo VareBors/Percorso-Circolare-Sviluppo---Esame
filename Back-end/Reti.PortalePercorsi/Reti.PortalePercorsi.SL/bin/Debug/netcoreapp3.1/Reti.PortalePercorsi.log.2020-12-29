@@ -1,0 +1,29 @@
+2020-12-29 18:56:01,461  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-12-29 18:56:01,665  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-12-29 18:56:01,668  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2020-12-29 18:58:19,406  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-12-29 18:58:19,521  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-12-29 18:58:19,524  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2020-12-29 18:58:48,245  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 19:09:40,603  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-12-29 19:09:40,679  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-12-29 19:09:40,681  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2020-12-29 20:10:51,372  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-12-29 20:10:51,453  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-12-29 20:10:51,456  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.SL
+ 2020-12-29 20:14:51,908  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:15:03,730  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:15:04,211  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:15:07,403  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:16,483  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:19,002  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:42,999  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Added new Resource
+ 2020-12-29 20:18:43,010  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:43,044  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:50,569  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:53,666  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:18:55,579  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:31:21,162  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:31:22,676  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 2020-12-29 20:37:11,885  INFO Reti.PortalePercorsi.SL.Controllers.LessonsController.LogMessage [0] - MESSAGE: Request Lessons/GetAll
+ 
