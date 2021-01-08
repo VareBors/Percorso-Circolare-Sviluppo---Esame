@@ -4,6 +4,7 @@ using Reti.PortalePercorsi.DAL.Entity;
 using Reti.PortalePercorsi.DAL.UnitOfWork;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
@@ -62,7 +63,9 @@ namespace Reti.PortalePercorsi.BL.Manager
                 entityResource.Username += dtoResource.Name.Replace(" ", "").ToLower();
             }
 
-            entityResource.Username += "1";
+            int ResourceWithSameUsername = UnitOfWork.ResourceRepository.GetAll().Where(res => res.Username.Substring(0, res.Username.Length - 1) == entityResource.Username).Count();
+            
+            entityResource.Username += ResourceWithSameUsername+1;
 
             UnitOfWork.ResourceRepository.Add(entityResource);
             UnitOfWork.Commit();

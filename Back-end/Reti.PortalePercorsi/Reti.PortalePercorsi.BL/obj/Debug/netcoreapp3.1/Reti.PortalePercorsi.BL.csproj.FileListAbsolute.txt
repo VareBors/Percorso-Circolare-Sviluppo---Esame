@@ -10,3 +10,15 @@ C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortaleP
 C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.dll
 C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.pdb
 C:\Users\varenro1\Desktop\Progetto Esame - Varena Roberto\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.csproj.CopyComplete
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.csprojAssemblyReference.cache
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.AssemblyInfoInputs.cache
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.AssemblyInfo.cs
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.csproj.CoreCompileInputs.cache
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.dll
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.pdb
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.deps.json
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.dll
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.pdb
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.dll
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\bin\Debug\netcoreapp3.1\Reti.PortalePercorsi.DAL.pdb
+C:\Users\varenro1\Desktop\Percorso Circolare Sviluppo - Esame\Back-end\Reti.PortalePercorsi\Reti.PortalePercorsi.BL\obj\Debug\netcoreapp3.1\Reti.PortalePercorsi.BL.csproj.CopyComplete
